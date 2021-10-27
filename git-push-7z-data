@@ -8,3 +8,6 @@ for f in $(git status -u | grep "7z-data/"); do
     echo "*** Done ***"
 done
 
+git add 7z-data/sha256sum.txt
+git commit -m "added 7z-data/sha256sum.txt"
+git push
