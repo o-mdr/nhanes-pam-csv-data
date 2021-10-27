@@ -1,0 +1,2 @@
+# don't track actual csv files, too many small files
+data/**/*
