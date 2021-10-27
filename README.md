@@ -39,6 +39,20 @@ For faster upload/download data was compressed using
 # git pull
 ```
 
+## Verifications
+
+7z archives can be verified via check with originally committed checksum.
+
+```bash
+# Generate checksum
+# cd 7z-data
+# rm sha256sum.txt
+# for f in *7z*; do sha256sum "$f" >> sha256sum.txt; done
+
+# Validate checksum
+sha256sum -c sha256sum.txt
+```
+
 ## Licence
 
 This repository is licensed under the [Unlicense](LICENCE) and it is compatible with public domain.
