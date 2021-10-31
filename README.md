@@ -64,7 +64,11 @@ cd ..
 ./git-push-7z-data
 ```
 
-## Licence
+## License
 
-This repository is licensed under the [Unlicense](LICENCE) and it is compatible with public domain.
-[Original data](https://wwwn.cdc.gov/nchs/nhanes/NhanesCitation.aspx) is in the public domain.
+![public domain](https://licensebuttons.net/p/mark/1.0/80x15.png)
+
+This repository is released into [public domain](https://creativecommons.org/publicdomain/mark/1.0/).
+It is built on the valuable work by the Centers for Disease Control and Prevention (CDC) that released the [original data](https://wwwn.cdc.gov/nchs/nhanes/NhanesCitation.aspx) into the public domain.
+
+Should you like to cite _this_ work, you could (but not required to) use the following style: O.Mandrychenko, https://github.com/o-mdr/nhanes-pam-csv-data, release [x.x.x], 2021.
